@@ -1,5 +1,5 @@
-import { OrbitControls } from '@react-three/drei'
-import { Canvas } from '@react-three/fiber'
+import { OrbitControls } from '@react-three/drei';
+import { Canvas } from '@react-three/fiber';
 import { useMediaQuery } from 'react-responsive';
 import { Room } from './Room';
 import HeroLights from './HeroLights';
@@ -27,6 +27,6 @@ const HeroExperience = () => {
             </group>
 
         </Canvas>
-    )
-}
-export default HeroExperience
+    );
+};
+export default HeroExperience;
