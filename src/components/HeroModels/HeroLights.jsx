@@ -1,4 +1,4 @@
-import * as THREE from 'three'
+import * as THREE from 'three';
 
 const HeroLights = () => {
     return (
@@ -47,6 +47,6 @@ const HeroLights = () => {
             />
         </>
 
-    )
-}
-export default HeroLights
+    );
+};
+export default HeroLights;

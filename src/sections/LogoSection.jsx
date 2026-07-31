@@ -6,8 +6,8 @@ const LogoIcon = ({icon}) => {
             <img src={icon.imgPath} alt={icon.name} />
 
         </div>
-    )
-}
+    );
+};
 
 const LogoSection = () => {
     return (
@@ -26,6 +26,6 @@ const LogoSection = () => {
                 </div>
             </div>
         </div>
-    )
-}
+    );
+};
 export default LogoSection;

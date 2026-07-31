@@ -15,6 +15,6 @@ const AnimatedCounter = () => {
                 ))}
             </div>
         </div>
-    )
-}
+    );
+};
 export default AnimatedCounter;

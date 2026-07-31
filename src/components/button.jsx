@@ -12,7 +12,7 @@ const Button = ({ text, className, id }) => {
                     const top = target.getBoundingClientRect().top + window.scrollY - offset;
 
                     window.scrollTo({ top, behavior: 'smooth' });
-                }
+                };
             }}
             className={`${className ?? ''} cta-wrapper`}>
                 <div className="cta-button group">
