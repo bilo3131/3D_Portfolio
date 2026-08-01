@@ -18,14 +18,14 @@ const navLinks = [
 ];
 
 const words = [
-  { key: "0", text: "Ideas", imgPath: "/images/ideas.svg" },
-  { key: "1", text: "Concepts", imgPath: "/images/concepts.svg" },
-  { key: "2", text: "Designs", imgPath: "/images/designs.svg" },
-  { key: "3", text: "Code", imgPath: "/images/code.svg" },
-  { key: "4", text: "Ideas", imgPath: "/images/ideas.svg" },
-  { key: "5", text: "Concepts", imgPath: "/images/concepts.svg" },
-  { key: "6", text: "Designs", imgPath: "/images/designs.svg" },
-  { key: "7", text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
+  { text: "Ideas", imgPath: "/images/ideas.svg" },
+  { text: "Concepts", imgPath: "/images/concepts.svg" },
+  { text: "Designs", imgPath: "/images/designs.svg" },
+  { text: "Code", imgPath: "/images/code.svg" },
 ];
 
 const counterItems = [
