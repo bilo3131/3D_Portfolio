@@ -91,7 +91,7 @@ const abilities = [
 
 const techStackImgs = [
   {
-    name: "React Developer",
+    name: "HTML5",
     imgPath: "/images/logos/react.png",
   },
   {
@@ -113,36 +113,78 @@ const techStackImgs = [
 ];
 
 const techStackIcons = [
+  // {
+  //   name: "HTML5",
+  //   modelPath: "/models/html_logo__3d_model.glb",
+  //   scale: 50,
+  //   rotation: [0, 0, 0],
+  // },
+  // {
+  //   name: "CSS3",
+  //   modelPath: "/models/modern_3d_css_logo.glb",
+  //   scale: 50,
+  //   rotation: [0, 0, 0],
+  // },
+  // {
+  //   name: "JavaScript",
+  //   modelPath: "/models/javascript_logo__3d_model.glb",
+  //   scale: 50,
+  //   rotation: [0, 0, 0],
+  // },
   {
-    name: "React Developer",
-    modelPath: "/models/react_logo-transformed.glb",
-    scale: 1,
-    rotation: [0, 0, 0],
+    name: "Angular",
+    modelPath: "/models/angular.glb",
+    scale: 6,
+    rotation: [1.6, 0, 0],
   },
   {
-    name: "Python Developer",
+    name: "TypeScript",
+    modelPath: "/models/typescript_logo__3d_model.glb",
+    scale: 50,
+    rotation: [0, 0, 0],
+  },
+  // {
+  //   name: "Firebase",
+  //   modelPath: "/models/firebase_logo.glb",
+  //   scale: 90,
+  //   rotation: [0, 0, 0],
+  // },
+  {
+    name: "Python",
     modelPath: "/models/python-transformed.glb",
     scale: 0.8,
     rotation: [0, 0, 0],
   },
   {
-    name: "Backend Developer",
-    modelPath: "/models/node-transformed.glb",
-    scale: 5,
-    rotation: [0, -Math.PI / 2, 0],
+    name: "Django",
+    modelPath: "/models/django.glb",
+    scale: 6,
+    rotation: [1.6, 0, 0],
   },
   {
-    name: "Interactive Developer",
-    modelPath: "/models/three.js-transformed.glb",
-    scale: 0.05,
-    rotation: [0, 0, 0],
+    name: "PostgreSQL",
+    modelPath: "/models/postgres.glb",
+    scale: 6,
+    rotation: [1.6, 0, 0],
   },
-  {
-    name: "Project Manager",
-    modelPath: "/models/git-svg-transformed.glb",
-    scale: 0.05,
-    rotation: [0, -Math.PI / 4, 0],
-  },
+  // {
+  //   name: "GIT",
+  //   modelPath: "/models/git-svg-transformed.glb",
+  //   scale: 0.05,
+  //   rotation: [0, -Math.PI / 4, 0],
+  // },
+  // {
+  //   name: "Backend Developer",
+  //   modelPath: "/models/node-transformed.glb",
+  //   scale: 5,
+  //   rotation: [0, -Math.PI / 2, 0],
+  // },
+  // {
+  //   name: "Interactive Developer",
+  //   modelPath: "/models/three.js-transformed.glb",
+  //   scale: 0.05,
+  //   rotation: [0, 0, 0],
+  // },
 ];
 
 const expCards = [

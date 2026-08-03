@@ -14,6 +14,14 @@ const TechIcon = ({ model }) => {
                 }
             })
         }
+        if(model.name === 'JavaScript') {
+            const box = new THREE.Box3().setFromObject(scene.scene)
+            const center = box.getCenter(new THREE.Vector3())
+
+            scene.scene.children.forEach((child) => {
+                child.position.sub(center)
+            })
+        }
     }, [scene])
     return (
         <Canvas>
