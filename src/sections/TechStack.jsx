@@ -1,4 +1,4 @@
-import TechIcon from "../components/models/TechLogos/TechIcon";
+import TechIcon from "../components/models/tech_logos/TechIcon";
 import TitleHeader from "../components/TitleHeader";
 import { techStackIcons, techStackImgs } from "../constants";
 import { useGSAP } from "@gsap/react";
